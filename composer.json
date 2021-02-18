@@ -1,7 +1,7 @@
 {
-  "name": "jr/ooapi",
+  "name": "onOffice/api-client-cli",
   "type": "project",
-  "description": "test onOffice API",
+  "description": "CLI based client for onOffice API",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
