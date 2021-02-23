@@ -1,5 +1,5 @@
 {
-  "name": "onOffice/api-client-cli",
+  "name": "onoffice/api-client-cli",
   "type": "project",
   "description": "CLI based client for onOffice API",
   "minimum-stability": "stable",
