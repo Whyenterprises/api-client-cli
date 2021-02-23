@@ -5,7 +5,6 @@ test-suite for onOffice API
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [ooapi.ini](#ooapiini)
-* [GUI](#gui)
 * [Command-Line-Version](#Command-Line-Version)
 * [ooapitest.php](#ooapitestphp)
 
@@ -26,17 +25,11 @@ To avoid unnecessary code configuration, this library provides a configuration f
  
 In the `config/ooapi.ini` the onOffice-API-URL configured.
 
-## GUI
-This library comes with a basic user interface where custom JSON data
-can be entered.
+## Command-Line
 
-Just call `public/index.html` in the browser.
+#### bin/ooapitest.php
 
-## Command-Line-Version
-
-#### ooapitest.php
-
-Beside the [GUI](#gui) this library can be used via console.
+This library can be used via console.
 
 `$ php bin/ooapitest.php -f /path-to-file-with-json -t token -s secret`
 
